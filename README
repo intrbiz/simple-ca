@@ -1,0 +1,14 @@
+## Rough and ready TLS CA
+
+## Setup
+
+./setup.sh
+
+
+## Generate key and request
+
+./req.sh common.name
+
+## Sign request
+
+./sign.sh common.name
